@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution  {
+public class ZigZagpattern  {
     public String convert(String s, int numRows) {
         if(numRows==1)
         {
@@ -48,6 +48,6 @@ public class Solution  {
         int norow= sc.nextInt();
         sc.nextLine();
         String str=sc.nextLine();
-        System.out.println(new Solution().convert(str,norow));
+        System.out.println(new ZigZagpattern().convert(str,norow));
     }
 }
